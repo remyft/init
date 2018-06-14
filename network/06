@@ -1,0 +1,2 @@
+D'apres le man 5 resolver, on apprend que l'adresse IP du DNS se trouve dans le fichier /etc/resolv.conf, qui est lui-meme un lien symbolique vers /var/run/resolv.conf
+Answer : /var/run/resolv.conf

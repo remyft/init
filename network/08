@@ -1,0 +1,2 @@
+En interrogeant les adresses IP de slash16.org, obtenu grace a la commande host, a l'aide de la commande nslookup, nous recuperons l'hebergeur de slash16.org qui est Amazon Web Service
+Commande : nslookup 54.192.185.5
