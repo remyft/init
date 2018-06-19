@@ -1,1 +1,1 @@
-netstat -l | grep "ssh"
+service ssh status

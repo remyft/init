@@ -1,1 +1,1 @@
-On trouve la version de Debian installee sur notre system dans le fichier /etc/apt/sources.list
+On trouve la version de Debian installee sur notre system grace a la commande cat /etc/version, ou avec plus de details avec lsb_release -a.
