@@ -1,1 +1,0 @@
-"echo "intra.42.fr 46.19.122.85" >> /etc/hosts" serait la commande a taper, mais la permission ne nous est pas accorde. Cela nous redirigerai vers 16.19.122.85 lorsque l'on tape "intra.42.fr" sur notre navigateur

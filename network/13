@@ -1,1 +1,5 @@
-Le serveur est un serveur DHCP (Dynamic Host Configuration Protocol), dont le role est de distribuer des adresses IP aux differents users de son reseau.
+Server:		10.51.1.42
+Address:	10.51.1.42#53
+
+81.1.51.10.in-addr.arpa	name = ldap-proxy.42.fr.
+

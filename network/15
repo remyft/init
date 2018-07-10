@@ -1,1 +1,1 @@
-Le fichier contenant les entrees locales DNS se trouve dans /etc/hosts, qui est un lien symbolique vers /private/etc/host
+"echo "intra.42.fr 46.19.122.85" >> /etc/hosts" serait la commande a taper, mais la permission ne nous est pas accorde. Cela nous redirigerai vers 46.19.122.85 lorsque l'on tape "intra.42.fr" sur notre navigateur
