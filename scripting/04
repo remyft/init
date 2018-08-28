@@ -1,0 +1,19 @@
+#Nom du fichier à surveiller
+FILE_NAME="/Users/rfontain/documents/project/init/scripting/01"
+
+if [ -f save.txt ]; then
+	read LINE < save.txt
+else
+	LINE=$(date -r ${FILE_NAME})
+fi
+# Date de la dernière modification du fichier ci-dessus
+LAST_UPDATE=$(date -r ${FILE_NAME})
+# Adresse mail de l'administrateur ou de la personne à prévenir
+MAIL_ADMIN="wellan89@gmail.com"
+# Test si les deux dates sont identiques
+if [ "${LAST_UPDATE}" != "${LINE}" ]; then
+# Si différente, envoi du mail d'alerte
+CORPS_MESSAGE="Alerte, le fichier ${FILE_NAME} a été modifié le ${LAST_UPDATE}";
+echo "$CORPS_MESSAGE" | mail -s "Alerte surveillance modification de fichier" "${MAIL_ADMIN}";
+fi
+echo "$LAST_UPDATE" > save.txt
